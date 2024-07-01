@@ -1,0 +1,35 @@
+.Contact{
+    border: 1px solid transparent;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background: linear-gradient(
+        45deg,
+        #080f1f,
+        #012452,
+        #013763
+    );
+    .tituloContact{
+        margin: 100px 0 20px 0;
+    }
+    .p_contact{
+        text-align: center;
+        color: #999;
+        font-size: 1.5em;
+        margin: 20px 0;
+    }
+}
+.formulario{
+    width: 600px;
+    height: 700px;
+    background-color: rgb(21, 136, 139);
+    border-radius: 20px;
+}
+@media (max-width:720px){
+    .formulario{
+        width: 90%;
+        
+    }
+}

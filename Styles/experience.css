@@ -1,0 +1,125 @@
+.Experience{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        10deg,
+        #663262,
+        #280c3d,
+        var(--color-Skills),
+        var(--color-Skills)
+    );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 4em;
+    color: #eee;text-align: center;
+    margin: 90px 0;
+}
+
+.p_experience{
+    margin: 0 200px;
+    font-size: 2em;
+    color: #ccc;
+    text-align: center;
+}
+.boxExperience{
+    border: 1px solid #0ff;
+    box-shadow: 0 0 70px 1px #0ff4;
+    width: 900px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.boxExperience:hover{
+    cursor: pointer;
+    box-shadow: 0 0 100px 2px #0ff6;
+}
+.boxCompany{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    img{
+        height: 80px;
+        filter: drop-shadow(0 0 4px #fff);
+        margin-right: 20px;
+    }
+    .datosCompany{
+        h3{
+            color:#aaa;
+            font-size: 2em;
+        }
+        h5{
+            color: #888;
+            font-size: 1.5em;
+        }
+        h6{
+            color: #777;
+            font-size: 1em;
+        }
+    }
+
+}
+hr{
+    width: 80%;
+    border: 1px solid #aaa3;
+    margin: 15px 10%;
+
+}
+.companyDescription {
+    p{
+        font-size: 1.7em;
+        color: #aaa;
+    }
+    h3{
+        color: #bbb;
+        font-size: 1.4em;
+        margin: 15px 10px;
+    }
+}
+
+@media (max-width:650px){
+    .Experience{
+        height: 130vh;
+    }
+    .p_experience{
+        margin: 0 10px;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .boxExperience{
+        width: 380px;
+        margin: 10px;
+    }
+    .companyDescription{
+        p{
+            font-size: 1.2em;
+        }
+        h3{
+            font: 1em;
+        }
+    }
+    .boxCompany{
+        .datosCompany{
+            h3{
+                font-size: 1.6em;
+            }
+            h5{
+                font-size: 1.1em;
+            }
+            h6{
+                font-size: 1.1em;
+            }
+        }
+    }
+    hr{
+        margin: 5px 10%;
+    }
+}
+
+
+
